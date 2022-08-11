@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~antd/dist/antd.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.bucket-container::-webkit-scrollbar {
+  width: 2px !important;
+}
+.bucket-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.bucket-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.bucket::-webkit-scrollbar {
+  width: 0px !important;
+}
